@@ -9,6 +9,7 @@ import org.hibernate.cfg.Configuration;
  * Created by user on 17-3-31.
  */
 public class HbnUtils {
+    //这是注释
     private static SessionFactory sessionFactory;
     public static Session getSession(){
         sessionFactory = getSessionFactory();
